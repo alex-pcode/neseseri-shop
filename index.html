@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Neseseri za bebe | Neseser koji mami štedi vreme</title>
+<meta name="description" content="Ručno rađeni neseseri za bebe od 100% pamuka, pončo za plažu, nepromočive podloge i personalizacija vezom. Šaljemo svaki dan.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--teal:#48A0A8;--teal-d:#2C7A82;--ink:#1F4C52;--peach:#F8D8D0;--peach-l:#FDEFEA;--yellow:#F8E27A;--cream:#FFFBF5;--line:#EADFD6;--muted:#6B8387;--cta:#E8744F;--cta-d:#D0603D;--r:18px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Nunito',system-ui,sans-serif;background:var(--cream);color:var(--ink);line-height:1.55;font-size:16px;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+h1,h2,h3,.fr{font-family:'Fredoka','Nunito',sans-serif;font-weight:600;line-height:1.15;letter-spacing:.2px}
+a{color:inherit}
+button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--cta);color:#fff;font-weight:800;border-radius:999px;padding:14px 26px;font-size:1rem;transition:.15s;text-decoration:none;box-shadow:0 4px 0 var(--cta-d)}
+.btn:hover{background:var(--cta-d)}.btn:active{transform:translateY(2px);box-shadow:0 2px 0 var(--cta-d)}
+.btn.ghost{background:#fff;color:var(--teal-d);box-shadow:0 0 0 2px var(--teal) inset}
+.btn.block{width:100%}.btn[disabled]{opacity:.5;pointer-events:none}
+.top{background:var(--teal);color:#fff;text-align:center;font-size:.85rem;font-weight:700;padding:7px 12px}
+header.nav{position:sticky;top:0;z-index:40;background:rgba(255,251,245,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px}
+.nav img.logo{height:46px;width:auto}
+.nav nav{display:none;gap:24px;font-weight:700}
+.nav nav a{text-decoration:none}.nav nav a:hover{color:var(--teal-d)}
+.cartbtn{position:relative;display:flex;align-items:center;gap:8px;background:var(--peach);padding:9px 16px;border-radius:999px;font-weight:800}
+.cartbtn b{background:var(--cta);color:#fff;border-radius:999px;min-width:22px;height:22px;display:grid;place-items:center;font-size:.8rem;padding:0 6px}
+.cartbtn b:empty,.cartbtn b[data-n="0"]{display:none}
+@media(min-width:800px){.nav nav{display:flex}}
+section{padding:48px 0}
+.eyebrow{display:inline-block;background:var(--yellow);color:var(--ink);font-weight:800;font-size:.8rem;border-radius:999px;padding:4px 12px;margin-bottom:12px;text-transform:uppercase;letter-spacing:.6px}
+h2.sec{font-size:clamp(1.7rem,5vw,2.4rem);margin-bottom:8px}
+.sub{color:var(--muted);max-width:620px;margin-bottom:28px}
+.price{font-family:'Fredoka';font-weight:600;color:var(--ink)}
+.price s{color:var(--muted);font-weight:400;font-size:.85em;margin-right:6px}
+footer{background:var(--ink);color:#DDEBEC;padding:40px 0 100px;margin-top:40px}
+footer h4{font-family:'Fredoka';color:#fff;margin-bottom:8px}
+footer .cols{display:grid;gap:24px}
+footer a{color:var(--yellow)}
+@media(min-width:800px){footer .cols{grid-template-columns:2fr 1fr 1fr}footer{padding-bottom:40px}}
+footer small{display:block;margin-top:24px;opacity:.7}
+/* drawer */
+.ovl{position:fixed;inset:0;background:rgba(20,50,54,.5);z-index:60;opacity:0;pointer-events:none;transition:.2s}
+.ovl.on{opacity:1;pointer-events:auto}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(440px,100%);background:#fff;z-index:70;transform:translateX(100%);transition:.25s;display:flex;flex-direction:column}
+.drawer.on{transform:none}
+.drawer header{display:flex;justify-content:space-between;align-items:center;padding:16px 18px;border-bottom:1px solid var(--line)}
+.drawer header h3{font-size:1.3rem}
+.x{width:38px;height:38px;border-radius:50%;background:var(--peach-l);font-size:1.3rem;line-height:1}
+.dbody{flex:1;overflow:auto;padding:16px 18px}
+.dfoot{border-top:1px solid var(--line);padding:14px 18px;background:var(--cream)}
+.line{display:grid;grid-template-columns:64px 1fr auto;gap:12px;padding:12px 0;border-bottom:1px solid var(--line);align-items:center}
+.line img{width:64px;height:64px;object-fit:cover;border-radius:12px;background:var(--peach-l)}
+.line .n{font-weight:800;line-height:1.25}.line .v{font-size:.82rem;color:var(--muted)}
+.qty{display:inline-flex;align-items:center;border:2px solid var(--line);border-radius:999px;margin-top:6px}
+.qty button{width:32px;height:32px;font-weight:800;font-size:1.1rem}
+.qty span{min-width:24px;text-align:center;font-weight:800}
+.rm{font-size:.78rem;color:var(--muted);text-decoration:underline;display:block;margin-top:4px}
+.tot{display:flex;justify-content:space-between;font-weight:700;padding:3px 0}
+.tot.big{font-size:1.2rem;font-family:'Fredoka'}
+.empty{text-align:center;color:var(--muted);padding:40px 0}
+/* checkout */
+.co{position:fixed;inset:0;z-index:80;background:var(--cream);overflow:auto;display:none}
+.co.on{display:block}
+.co .wrap{max-width:900px;padding-top:16px;padding-bottom:60px}
+.cohead{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.cogrid{display:grid;gap:24px}
+@media(min-width:800px){.cogrid{grid-template-columns:1.2fr 1fr}}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:18px}
+.card h3{font-size:1.2rem;margin-bottom:12px}
+label.f{display:block;font-weight:700;font-size:.9rem;margin-bottom:12px}
+label.f input,label.f textarea,select.sel{display:block;width:100%;margin-top:4px;font:inherit;padding:12px 14px;border:2px solid var(--line);border-radius:12px;background:#fff;color:var(--ink)}
+label.f input:focus,label.f textarea:focus,select.sel:focus{outline:0;border-color:var(--teal)}
+.two{display:grid;gap:12px}@media(min-width:520px){.two{grid-template-columns:1fr 1fr}}
+.opt{display:flex;gap:10px;align-items:flex-start;border:2px solid var(--line);border-radius:12px;padding:12px;margin-bottom:8px;cursor:pointer;font-weight:700}
+.opt input{margin-top:4px;accent-color:var(--teal)}
+.opt:has(input:checked){border-color:var(--teal);background:#EEF8F8}
+.opt.dis{opacity:.45;pointer-events:none}
+.opt small{display:block;font-weight:400;color:var(--muted)}
+.note{background:var(--yellow);border-radius:12px;padding:10px 14px;font-size:.9rem;margin-bottom:12px;font-weight:600}
+.done{text-align:center;padding:40px 0}
+.done .ok{width:72px;height:72px;border-radius:50%;background:var(--teal);color:#fff;font-size:2.2rem;display:grid;place-items:center;margin:0 auto 16px}
+.toast{position:fixed;left:50%;bottom:90px;transform:translate(-50%,20px);background:var(--ink);color:#fff;padding:12px 20px;border-radius:999px;font-weight:700;z-index:90;opacity:0;transition:.25s;pointer-events:none;white-space:nowrap;max-width:92vw}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+
+.sticky{position:static}@media(min-width:800px){.sticky{position:sticky;top:12px}}
+.hero{padding:28px 0 40px;background:linear-gradient(180deg,var(--peach-l),var(--cream))}
+.hero .wrap{display:grid;gap:28px;align-items:center}
+.hero h1{font-size:clamp(2.2rem,8vw,3.6rem);margin-bottom:14px}
+.hero h1 em{font-style:normal;color:var(--teal-d);background:linear-gradient(transparent 62%,var(--yellow) 62%)}
+.hero p.lead{font-size:1.1rem;max-width:520px;margin-bottom:22px}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+.hero .pic{position:relative;max-width:420px;margin:0 auto;width:100%}
+.hero .pic img{border-radius:28px;aspect-ratio:1/1;object-fit:cover;width:100%;box-shadow:0 14px 0 var(--peach)}
+.hero .tag{position:absolute;left:-6px;bottom:18px;background:var(--yellow);padding:8px 16px;border-radius:999px;font-weight:800;transform:rotate(-4deg);box-shadow:0 3px 0 rgba(0,0,0,.08)}
+@media(min-width:800px){.hero .wrap{grid-template-columns:1.1fr 1fr}.hero{padding:56px 0 64px}}
+.trust{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:-4px}
+.trust div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 14px;font-weight:700;font-size:.9rem;display:flex;gap:10px;align-items:center}
+.trust i{font-style:normal;font-size:1.3rem}
+@media(min-width:800px){.trust{grid-template-columns:repeat(4,1fr)}}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(min-width:800px){.grid{grid-template-columns:repeat(4,1fr);gap:20px}}
+.pc{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column}
+.pc .im{aspect-ratio:1/1;background:var(--peach-l);display:block;overflow:hidden;position:relative}
+.pc .im img{width:100%;height:100%;object-fit:cover}
+.pc .badge{position:absolute;top:8px;left:8px;background:var(--yellow);font-size:.72rem;font-weight:800;padding:3px 10px;border-radius:999px}
+.pc .bd{padding:12px;display:flex;flex-direction:column;gap:8px;flex:1}
+.pc h3{font-size:1.02rem}
+.pc .d{font-size:.84rem;color:var(--muted);flex:1}
+.pc select.sel,.pc input.in{padding:9px 10px;font-size:.85rem;margin:0;border-radius:10px;width:100%;border:2px solid var(--line);font-family:inherit;color:var(--ink);background:#fff}
+.pc .btn{padding:10px 14px;font-size:.92rem;box-shadow:0 3px 0 var(--cta-d)}
+.pc.feat{grid-column:1/-1}
+@media(min-width:800px){.pc.feat{grid-column:span 2;flex-direction:row}.pc.feat .im{aspect-ratio:auto;width:50%}.pc.feat .bd{padding:20px;justify-content:center}.pc.feat h3{font-size:1.5rem}}
+.vez{background:var(--teal);color:#fff;border-radius:28px;padding:28px 20px;display:grid;gap:24px}
+.vez h2{font-size:clamp(1.7rem,5vw,2.4rem);margin-bottom:10px}
+.vez ul{list-style:none;margin:14px 0 18px}.vez li{padding:4px 0 4px 26px;position:relative}
+.vez li:before{content:'\2713';position:absolute;left:0;color:var(--yellow);font-weight:800}
+.vez .ph{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.vez .ph img{border-radius:16px;aspect-ratio:1/1;object-fit:cover;width:100%}
+@media(min-width:800px){.vez{grid-template-columns:1.1fr 1fr;padding:44px}}
+.rev{display:grid;gap:14px}
+@media(min-width:800px){.rev{grid-template-columns:repeat(3,1fr)}}
+.rv{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:18px;position:relative}
+.rv:before{content:'\201E';font-family:'Fredoka';font-size:3rem;color:var(--teal);line-height:.6;display:block;margin-bottom:6px}
+.rv p{font-weight:600}.rv small{color:var(--muted);display:block;margin-top:10px;font-weight:700}
+.info{display:grid;gap:14px}
+@media(min-width:800px){.info{grid-template-columns:repeat(3,1fr)}}
+.info .card h3{color:var(--teal-d)}
+.info ul{padding-left:18px;font-size:.95rem}
+details{background:#fff;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;padding:0 16px}
+summary{cursor:pointer;font-weight:800;padding:14px 0;list-style:none;display:flex;justify-content:space-between;gap:10px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:'+';font-size:1.4rem;line-height:1;color:var(--teal-d)}
+details[open] summary:after{content:'\2212'}
+details p{padding:0 0 14px;color:#3d6065}
+.bar{background:var(--peach-l);border-radius:20px;padding:20px;display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between}
+</style>
+</head>
+<body>
+<div class="top">Šaljemo svaki dan Post Expressom · porudžbine do 13h idu istog dana</div>
+<header class="nav"><div class="wrap">
+<a href="index.html" aria-label="Neseseri za bebe"><img class="logo" src="img/logo.jpg" alt="Neseseri za bebe"></a>
+<nav><a href="index.html#proizvodi">Proizvodi</a><a href="index.html#vez">Vez</a><a href="index.html#utisci">Utisci</a><a href="index.html#dostava">Dostava</a></nav>
+<button class="cartbtn" id="openCart" aria-label="Otvori korpu"><span>Korpa</span><b id="cnt" data-n="0"></b></button>
+</div></header>
+
+<main>
+<section class="hero"><div class="wrap">
+<div><span class="eyebrow">Ručna izrada · od 2021.</span>
+<h1>Neseser koji <em>mami štedi vreme</em></h1>
+<p class="lead">Sve za izlazak sa bebom na jednom mestu: pelene, maramice, rezervno odelo i cucla, svako na svojoj pregradi. Od mekog pamuka, u dečijim dezenima. <b>2.500 RSD.</b></p>
+<div class="cta"><a class="btn" href="neseser.html">Izaberi svoj neseser</a><a class="btn ghost" href="#proizvodi">Pogledaj ponudu</a></div></div>
+<div class="pic"><img src="img/hero.jpg" alt="Neseser za bebe od pamuka sa dezenom životinja"><span class="tag">100% pamuk</span></div>
+</div></section>
+
+<section style="padding:0 0 24px"><div class="wrap"><div class="trust">
+<div><i>&#128230;</i>Šaljemo svaki dan</div><div><i>&#129526;</i>Ručna izrada</div><div><i>&#129717;</i>Vez po želji</div><div><i>&#128205;</i>Preuzimanje Valjevo i Paraćin</div>
+</div></div></section>
+
+<section id="proizvodi"><div class="wrap">
+<span class="eyebrow">Ponuda</span><h2 class="sec">Sve što mami treba</h2>
+<p class="sub">Izaberite proizvod i dodajte ga u korpu. Poručujete direktno ovde, a plaćate pouzećem ili unapred.</p>
+<div class="grid" id="grid"></div>
+</div></section>
+
+<section><div class="wrap"><div class="vez" id="vez">
+<div><span class="eyebrow">Personalizacija</span><h2>Vez koji traje i ne bledi</h2>
+<p>Svaki ubod radimo sa posebnom pažnjom. Ime, omiljeni junak, font i boja biraju se po vašoj želji. Savršen poklon za babine, krštenje ili rođendan.</p>
+<ul><li>Portikla, peškir sa kapuljačom ili bez, tetra pelena</li><li>Rok izrade 5 do 7 dana od uplate</li><li>Personalizovani proizvodi se plaćaju unapred na račun firme</li></ul>
+<a class="btn" href="#proizvodi" style="background:var(--yellow);color:var(--ink);box-shadow:0 4px 0 #d4be4e">Dodaj proizvod sa vezom</a></div>
+<div class="ph"><img src="img/portikla.jpg" alt="Portikla sa vezom imena" loading="lazy"><img src="img/peskir.jpg" alt="Peškir sa kapuljačom i vezom imena" loading="lazy"></div>
+</div></div></section>
+
+<section id="utisci"><div class="wrap">
+<span class="eyebrow">Utisci</span><h2 class="sec">Šta kažu mame</h2>
+<p class="sub">Poruke koje nam kupci šalju u inbox, prenete onako kako su napisane.</p>
+<div class="rev">
+<div class="rv"><p>Ja sam neseserom ne zadovoljna nego prezadovoljna. On je doziveo vise harikirija i nije ni mrdnuo. A trebace mi jos jedan uskoro</p><small>Kupac, poruka iz inboxa</small></div>
+<div class="rv"><p>Inače neseser je nešto najbolje što sam kupila od stvari za bebu, evo već 7 meseci ga svakodnevno koristim</p><small>Kupac, poruka iz inboxa</small></div>
+<div class="rv"><p>Pozdrav, zaboravila sam da Vam javim čim je stiglo. Poručila sam za sestru i ona i ja smo se oduševile, zaista prelep i dezen i materijal, prostran i veoma funkcionalan neseser.</p><small>Kupac, poruka iz inboxa</small></div>
+<div class="rv"><p>Stigao neseser jutros u 08:30h Svaka čast na brzini i svemu Predivan je</p><small>Kupac, poruka iz inboxa</small></div>
+<div class="rv"><p>Stigao je paket danas, super je neseser i hvala za divno pakovanje</p><small>Kupac, poruka iz inboxa</small></div>
+<div class="rv"><p>Fantastičan je, dezen, dobra zaštita od sunca, lagan, ama sve! Ona se komotno igra u njemu bez da pokušava da ga skine</p><small>Kupac pončoa, poruka iz inboxa</small></div>
+</div></div></section>
+
+<section id="dostava"><div class="wrap">
+<span class="eyebrow">Dostava i plaćanje</span><h2 class="sec">Kako stiže do vas</h2><p class="sub">Bez iznenađenja: sve piše unapred.</p>
+<div class="info">
+<div class="card"><h3>Slanje</h3><ul><li>Šaljemo svaki dan, porudžbine primljene do 13h idu istog dana</li><li>Najčešće stiže sutradan na vašu adresu</li><li>Post Express, a po želji Bex ili D Express</li><li>Lično preuzimanje u Valjevu ili Paraćinu</li></ul></div>
+<div class="card"><h3>Poštarina</h3><ul><li>Paket do 500 g (npr. 1 neseser ili 3 pelene): oko 550 RSD pouzećem</li><li>Uplatom unapred: 450 RSD</li><li>Veći paketi prema cenovniku Post Expressa</li></ul></div>
+<div class="card"><h3>Plaćanje</h3><ul><li>Pouzećem, pri preuzimanju paketa</li><li>Ili unapred na račun firme, uz fiskalni račun za svaku porudžbinu</li><li>Proizvodi sa vezom: samo unapred</li></ul></div>
+</div></div></section>
+
+<section style="padding-top:8px"><div class="wrap">
+<h2 class="sec">Česta pitanja</h2><br>
+<details><summary>Kako se održava neseser?</summary><p>Prvo pranje u malo hladne vode uz malo omekšivača zbog postojanosti boja. Posle toga na 30 do 40 stepeni, centrifuga na minimum. Može da se pegla, ali ne preporučujemo sušenje u mašini za sušenje zbog ojačanih stranica.</p></details>
+<details><summary>Da li je plaćanje pouzećem ili može na račun?</summary><p>Možete pouzećem pri preuzimanju paketa, ili unapred na račun firme. Uplatom unapred smanjuje se poštarina. Za svaku porudžbinu dobijate i fiskalni račun.</p></details>
+<details><summary>Kada se šalje paket?</summary><p>Svaki dan. Sve porudžbine primljene do 13h šaljemo istog dana, a paket najčešće stiže sutradan.</p></details>
+<details><summary>Koliko traje izrada proizvoda sa vezom?</summary><p>Rok izrade je 5 do 7 dana od uplate. Za personalizovane proizvode uplata na račun firme je obavezna.</p></details>
+<details><summary>Da li se dezeni menjaju?</summary><p>Da, dostupni dezeni nesesera se menjaju. Ako je izabrani dezen u međuvremenu rasprodat, javimo vam se pre slanja.</p></details>
+<div class="bar" style="margin-top:24px"><div><b>Imate dodatno pitanje?</b><br>Rado odgovaramo na Instagramu.</div><a class="btn ghost" href="https://www.instagram.com/neseseri_za_bebe/" target="_blank" rel="noopener">Pitanja? Pišite nam</a></div>
+</div></section>
+</main>
+<footer><div class="wrap"><div class="cols">
+<div><h4>Neseseri za bebe</h4><p>Ručno rađeni neseseri i bebi oprema od pamuka, sa personalizacijom vezom. Od 2021. Paraćin i Valjevo.</p></div>
+<div><h4>Dostava i plaćanje</h4><p>Post Express svaki dan. Pouzećem ili uplatom na račun firme. Lično preuzimanje u Valjevu ili Paraćinu.</p></div>
+<div><h4>Pitanja?</h4><p>Pišite nam na Instagramu <a href="https://www.instagram.com/neseseri_za_bebe/" target="_blank" rel="noopener">@neseseri_za_bebe</a><br>Setovi za krštenje i venčanje: <a href="https://www.instagram.com/sve_za_vencanje_i_krstenje/" target="_blank" rel="noopener">@sve_za_vencanje_i_krstenje</a></p></div>
+</div><small>Demo prikaz prodavnice izrađen na osnovu Instagram profila brenda. Cene su preuzete iz objava i istaknutih priča brenda.</small></div></footer>
+
+<div class="ovl" id="ovl"></div>
+<aside class="drawer" id="drawer" aria-label="Korpa" aria-hidden="true">
+<header><h3>Vaša korpa</h3><button class="x" id="closeCart" aria-label="Zatvori">&times;</button></header>
+<div class="dbody" id="dbody"></div>
+<div class="dfoot" id="dfoot"></div>
+</aside>
+
+<div class="co" id="co" role="dialog" aria-modal="true" aria-label="Porudžbina"><div class="wrap">
+<div class="cohead"><img class="logo" style="height:44px" src="img/logo.jpg" alt="Neseseri za bebe"><button class="btn ghost" id="backCart" style="padding:8px 18px">&larr; Nazad na korpu</button></div>
+<div id="coMain">
+<h2 class="fr" style="font-size:1.8rem;margin-bottom:14px">Završi porudžbinu</h2>
+<form id="coForm" class="cogrid" novalidate>
+<div>
+<div class="card" style="margin-bottom:16px"><h3>Podaci za dostavu</h3>
+<div class="two"><label class="f">Ime i prezime<input name="ime" required autocomplete="name"></label>
+<label class="f">Telefon<input name="tel" type="tel" required autocomplete="tel" placeholder="06x xxx xxxx"></label></div>
+<label class="f">Adresa (ulica i broj)<input name="adresa" required autocomplete="street-address"></label>
+<div class="two"><label class="f">Grad<input name="grad" required autocomplete="address-level2"></label>
+<label class="f">Poštanski broj<input name="pb" inputmode="numeric" autocomplete="postal-code"></label></div>
+<label class="f">Napomena (nije obavezno)<textarea name="nap" rows="2"></textarea></label></div>
+<div class="card"><h3>Dostava i plaćanje</h3>
+<div class="note" id="persNote" hidden>U korpi je proizvod sa vezom. Personalizovani proizvodi se plaćaju unapred na račun firme, a rok izrade je 5 do 7 dana od uplate.</div>
+<label class="opt" id="o-pouz"><input type="radio" name="ship" value="pouz" checked><span>Post Express, plaćanje pouzećem<small>550 RSD poštarina za paket do 500 g · plaćate pri preuzimanju</small></span></label>
+<label class="opt" id="o-pre"><input type="radio" name="ship" value="pre"><span>Post Express, uplata unapred na račun firme<small>450 RSD poštarina · uputstvo za uplatu dobijate nakon porudžbine</small></span></label>
+<label class="opt" id="o-lic"><input type="radio" name="ship" value="lic"><span>Lično preuzimanje u Valjevu ili Paraćinu<small>bez poštarine · plaćanje pri preuzimanju</small></span></label>
+<small style="color:var(--muted)">Za veće pakete poštarina je prema cenovniku Post Expressa, tačan iznos potvrđujemo pri javljanju.</small></div>
+</div>
+<div><div class="card sticky"><h3>Pregled porudžbine</h3><div id="coSum"></div>
+<button class="btn block" type="submit" style="margin-top:14px">Potvrdi porudžbinu</button>
+<p style="font-size:.8rem;color:var(--muted);margin-top:10px;text-align:center">Klikom na dugme potvrđujete porudžbinu. Javljamo se radi potvrde.</p></div></div>
+</form></div>
+<div id="coDone" class="done" hidden><div class="ok">&#10003;</div><h2 class="fr" style="font-size:1.9rem">Hvala na porudžbini!</h2>
+<p style="margin:10px auto;max-width:480px" id="doneTxt"></p><div class="card" style="max-width:480px;margin:18px auto;text-align:left" id="doneSum"></div>
+<a class="btn" href="index.html">Nazad na prodavnicu</a></div>
+</div></div>
+<div class="toast" id="toast"></div>
+
+<script>
+const PRODUCTS={
+neseser:{name:'Neseser za bebu',img:'img/nes-05.jpg',price:2500},
+ponco:{name:'Pončo za plažu od muslina',img:'img/ponco.jpg',sizes:{'3-4 godine (50x55 cm)':[1100,1300],'5-6 godina (56x62 cm)':[1200,1400],'7-8 godina (64x68 cm)':[1400,1600],'9-10 godina (72x75 cm)':[1600,1800]}},
+podloga:{name:'Nepromočiva podloga za presvlačenje 80x50',img:'img/podloga.jpg',price:800},
+pelena:{name:'Muslin tetra pelena 80x80',img:'img/pelena.jpg',price:550},
+portikla:{name:'Portikla sa vezom imena',img:'img/portikla.jpg',price:500,pers:1},
+peskir:{name:'Peškir sa kapuljačom i vezom',img:'img/peskir.jpg',sizes:{'80x80 cm, ime':[1300],'80x80 cm, ime i slika':[1800],'100x100 cm, ime':[1800],'100x100 cm, ime i slika':[2300]},pers:1},
+platno:{name:'Belo platno za krštenje sa vezom',img:'img/platno.jpg',price:2300,pers:1}
+};
+const fmt=n=>n.toLocaleString('de-DE')+' RSD';
+const $=s=>document.querySelector(s);
+function esc(s){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+let cart=[];
+try{cart=JSON.parse(localStorage.getItem('neseseri-cart')||'[]')}catch(e){}
+cart=cart.filter(c=>PRODUCTS[c.id]);
+const save=()=>{try{localStorage.setItem('neseseri-cart',JSON.stringify(cart))}catch(e){}};
+const key=c=>c.id+'|'+c.v+'|'+(c.note||'');
+function add(id,v,price,qty,note,img){
+  qty=qty||1;
+  const n={id,v,price,q:qty,note:note||'',img:img||''};
+  const ex=cart.find(c=>key(c)===key(n));
+  if(ex)ex.q+=qty;else cart.push(n);
+  save();render();toast('Dodato u korpu');
+}
+function toast(t){const e=$('#toast');e.textContent=t;e.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove('on'),1800)}
+const sub=()=>cart.reduce((s,c)=>s+c.price*c.q,0);
+const hasPers=()=>cart.some(c=>PRODUCTS[c.id].pers);
+const meta=c=>[c.v,c.note&&('Vez: '+esc(c.note))].filter(Boolean).join(' · ');
+function render(){
+  const n=cart.reduce((s,c)=>s+c.q,0);const b=$('#cnt');b.textContent=n||'';b.dataset.n=n;
+  const body=$('#dbody'),foot=$('#dfoot');
+  if(!cart.length){body.innerHTML='<div class="empty"><p class="fr" style="font-size:1.3rem">Korpa je prazna</p><p>Dodajte neseser ili nešto iz ponude.</p></div>';foot.innerHTML='';return}
+  body.innerHTML=cart.map((c,i)=>`<div class="line"><img src="${c.img||PRODUCTS[c.id].img}" alt=""><div><div class="n">${PRODUCTS[c.id].name}</div><div class="v">${meta(c)}</div><div class="qty"><button data-d="-1" data-i="${i}" aria-label="Manje">&minus;</button><span>${c.q}</span><button data-d="1" data-i="${i}" aria-label="Više">+</button></div><button class="rm" data-rm="${i}">Ukloni</button></div><div class="price">${fmt(c.price*c.q)}</div></div>`).join('');
+  foot.innerHTML=`<div class="tot big"><span>Ukupno</span><span>${fmt(sub())}</span></div><p style="font-size:.8rem;color:var(--muted);margin:2px 0 10px">Poštarina se obračunava u sledećem koraku.</p><button class="btn block" id="toCo">Nastavi na porudžbinu</button>`;
+}
+function drawer(o){$('#drawer').classList.toggle('on',o);$('#ovl').classList.toggle('on',o);$('#drawer').setAttribute('aria-hidden',!o);document.body.style.overflow=o?'hidden':''}
+$('#openCart').onclick=()=>drawer(true);$('#closeCart').onclick=()=>drawer(false);$('#ovl').onclick=()=>drawer(false);
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){drawer(false);if($('#co').classList.contains('on'))closeCo()}});
+$('#dbody').onclick=e=>{const t=e.target;
+  if(t.dataset.d){const c=cart[+t.dataset.i];c.q+=+t.dataset.d;if(c.q<1)cart.splice(+t.dataset.i,1);save();render()}
+  if(t.dataset.rm){cart.splice(+t.dataset.rm,1);save();render()}};
+$('#dfoot').onclick=e=>{if(e.target.id==='toCo')openCo()};
+const SHIP={pouz:550,pre:450,lic:0};
+const sel=()=>document.querySelector('input[name=ship]:checked').value;
+function sum(){
+  const s=SHIP[sel()];
+  $('#coSum').innerHTML=cart.map(c=>`<div class="tot" style="font-weight:600"><span>${c.q} &times; ${PRODUCTS[c.id].name}<br><small style="font-weight:400;color:var(--muted)">${meta(c)}</small></span><span>${fmt(c.price*c.q)}</span></div>`).join('')+`<hr style="border:0;border-top:1px solid var(--line);margin:10px 0"><div class="tot"><span>Proizvodi</span><span>${fmt(sub())}</span></div><div class="tot"><span>Poštarina${s?' (do 500 g)':''}</span><span>${fmt(s)}</span></div><div class="tot big"><span>Ukupno</span><span>${fmt(sub()+s)}</span></div>`;
+}
+function openCo(){
+  if(!cart.length)return;drawer(false);
+  const p=hasPers();$('#persNote').hidden=!p;
+  $('#o-pouz').classList.toggle('dis',p);$('#o-lic').classList.toggle('dis',p);
+  document.querySelector('input[name=ship][value='+(p?'pre':'pouz')+']').checked=true;
+  $('#coMain').hidden=false;$('#coDone').hidden=true;
+  $('#co').classList.add('on');document.body.style.overflow='hidden';$('#co').scrollTop=0;sum();
+}
+function closeCo(){$('#co').classList.remove('on');document.body.style.overflow='';}
+$('#backCart').onclick=()=>{closeCo();drawer(true)};
+document.querySelectorAll('input[name=ship]').forEach(r=>r.onchange=sum);
+$('#coForm').onsubmit=e=>{e.preventDefault();const f=e.target;let bad=null;
+  ['ime','tel','adresa','grad'].forEach(n=>{const i=f[n];if(!i.value.trim()){i.style.borderColor='#d33';bad=bad||i}else i.style.borderColor=''});
+  if(bad){bad.focus();toast('Popunite obavezna polja');return}
+  const s=SHIP[sel()],tot=sub()+s,no='NZB-'+Math.floor(10000+Math.random()*89999);
+  const how={pouz:'Platićete pouzećem pri preuzimanju paketa.',pre:'Uputstvo za uplatu na račun firme šaljemo u poruci radi potvrde.',lic:'Preuzimate lično, javićemo se oko termina.'}[sel()];
+  $('#doneTxt').textContent='Porudžbina '+no+' je primljena. '+how+(hasPers()?' Rok izrade personalizovanih proizvoda je 5 do 7 dana od uplate.':' Paketi se šalju svaki dan, porudžbine do 13h istog dana.');
+  $('#doneSum').innerHTML='<p id="dn" style="font-weight:700"></p><hr style="border:0;border-top:1px solid var(--line);margin:10px 0">'+cart.map(c=>`<div class="tot" style="font-weight:600"><span>${c.q} &times; ${PRODUCTS[c.id].name}</span><span>${fmt(c.price*c.q)}</span></div>`).join('')+`<div class="tot"><span>Poštarina</span><span>${fmt(s)}</span></div><div class="tot big"><span>Ukupno</span><span>${fmt(tot)}</span></div>`;
+  $('#dn').textContent=f.ime.value+', '+f.adresa.value+', '+f.pb.value+' '+f.grad.value+' · '+f.tel.value;
+  cart=[];save();render();$('#coMain').hidden=true;$('#coDone').hidden=false;$('#co').scrollTop=0;
+};
+render();
+
+const CARDS=[
+ {id:'neseser',feat:1,badge:'Naš neseser',d:'Pregrade za pelene, maramice, rezervno odelo i cuclu. 100% pamuk, ojačane stranice. Dezen birate na sledećoj strani.',link:'neseser.html',price:2500},
+ {id:'ponco',badge:'Sniženo',d:'Brzo se suši i raste uz dete. Dezeni se menjaju, pogledajte dostupne pri potvrdi.',sizes:1},
+ {id:'podloga',d:'Štiti, upija i čuva čistoću. Dezen po izboru iz dostupnih.',price:800},
+ {id:'pelena',d:'Mekana muslin tetra pelena 80x80 cm, može i na 90 stepeni.',price:550},
+ {id:'portikla',d:'Ime ili kraći tekst, font i boja po želji.',price:500,vez:1},
+ {id:'peskir',d:'Vez imena, a po želji i omiljeni junak.',sizes:1,vez:1},
+ {id:'platno',d:'Belo platno 140x35 cm za krštenje. Cena je ista bez obzira šta se veze.',price:2300,vez:1}
+];
+const g=document.getElementById('grid');
+CARDS.forEach(c=>{const p=PRODUCTS[c.id];
+ const sz=c.sizes?Object.keys(p.sizes):null;
+ const el=document.createElement('article');el.className='pc'+(c.feat?' feat':'');
+ el.innerHTML=`<a class="im" href="${c.link||'#'}" ${c.link?'':'tabindex="-1" onclick="return false"'} ><img src="${p.img}" alt="${p.name}" loading="lazy">${c.badge?`<span class="badge">${c.badge}</span>`:''}</a><div class="bd"><h3>${p.name}</h3><p class="d">${c.d}</p>${sz?`<select class="sel" aria-label="Veličina">${sz.map(s=>`<option>${s}</option>`).join('')}</select>`:''}${c.vez?`<input class="in" maxlength="40" placeholder="Tekst za vez (ime)" aria-label="Tekst za vez">`:''}<div class="price" style="font-size:1.2rem"></div>${c.feat?'<a class="btn" href="neseser.html">Izaberi dezen</a>':'<button class="btn">Dodaj u korpu</button>'}</div>`;
+ const pr=el.querySelector('.price'),s=el.querySelector('select');
+ const cur=()=>{if(!sz)return[p.price];return p.sizes[s.value]};
+ const showP=()=>{const v=cur();pr.innerHTML=(c.feat?'<span style="font-size:.8rem;font-weight:600;color:var(--muted)">od </span>':'')+(v[1]?`<s>${fmt(v[1])}</s>`:'')+fmt(v[0])};
+ showP();if(s)s.onchange=showP;
+ const b=el.querySelector('button.btn');
+ if(b)b.onclick=()=>{const inp=el.querySelector('input.in');const note=inp?inp.value.trim():'';
+   if(c.vez&&!note){inp.focus();inp.style.borderColor='#d33';toast('Upišite tekst za vez');return}
+   add(c.id,sz?s.value:'',cur()[0],1,note)};
+ g.appendChild(el);
+});
+</script>
+</body>
+</html>
